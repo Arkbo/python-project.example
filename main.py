@@ -9,8 +9,13 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
+def count_to(value):
+    for x in range(1, value+1):
+        print(x)
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('World')
+    count_to(10)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
